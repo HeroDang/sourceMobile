@@ -73,7 +73,7 @@ class _MenuDashboardState extends State<MenuDashboard> {
                           (Route<dynamic> route) => false,
                         );
                       },
-                      child: MenuItem(
+                      child: MenuItemm(
                         title: 'Trang chủ',
                         icon: Icons.home,
                       )),
@@ -84,7 +84,7 @@ class _MenuDashboardState extends State<MenuDashboard> {
                             MaterialPageRoute(
                                 builder: (context) => DashboardScreen()));
                       },
-                      child: MenuItem(
+                      child: MenuItemm(
                         title: 'Dashboard 1',
                         icon: Icons.dashboard,
                       )),
@@ -95,7 +95,7 @@ class _MenuDashboardState extends State<MenuDashboard> {
                             MaterialPageRoute(
                                 builder: (context) => DashboardScreen2()));
                       },
-                      child: MenuItem(
+                      child: MenuItemm(
                         title: 'Dashboard 2',
                         icon: Icons.dashboard,
                       )),
@@ -107,12 +107,12 @@ class _MenuDashboardState extends State<MenuDashboard> {
                           ),
                         ));
                       }),
-                      child: MenuItem(
+                      child: MenuItemm(
                         title: 'Quản lý',
                         icon: Icons.manage_accounts,
                       )),
                   InkWell(
-                    child: MenuItem(
+                    child: MenuItemm(
                       title: 'Đổi mật khẩu',
                       icon: Icons.key,
                     ),
@@ -135,7 +135,7 @@ class _MenuDashboardState extends State<MenuDashboard> {
                         ),
                       );
                     },
-                    child: MenuItem(
+                    child: MenuItemm(
                       title: 'Cài đặt tài khoản',
                       icon: Icons.settings,
                     ),
@@ -150,7 +150,7 @@ class _MenuDashboardState extends State<MenuDashboard> {
                         ),
                       ));
                     }),
-                    child: MenuItem(
+                    child: MenuItemm(
                       title: 'Đăng xuất',
                       icon: Icons.logout,
                     ),

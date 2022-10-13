@@ -10,6 +10,7 @@ import 'package:untitled/src/providers/profile_provider.dart';
 import 'package:untitled/src/providers/register_provider.dart';
 import 'package:untitled/src/providers/login_provider.dart';
 import 'package:untitled/src/providers/repository_provider.dart';
+import 'package:untitled/src/screens/login%20screen/login_screen.dart';
 
 import 'package:untitled/src/screens/main%20screen/main_screen.dart';
 
@@ -75,9 +76,10 @@ class App extends StatelessWidget {
         child: MaterialApp(
           debugShowCheckedModeBanner: false,
           home: Scaffold(
-              body: MainScreen(
-            checkScreen: false,
-          )),
+              body: 
+                // MainScreen(checkScreen: false,)
+                LoginScreen()
+              ),
         ));
   }
 }

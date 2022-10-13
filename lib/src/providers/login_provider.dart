@@ -51,7 +51,7 @@ class LoginProvider extends ChangeNotifier {
                       checkScreen: true,
                     )))
         : ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(content: Text(message == null ? '' : message)));
+            SnackBar(content: Text(message == null ? 'Error' : message))); //I madified
   }
 
 // lấy email, password từ SharePreference

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class MenuItem extends StatelessWidget {
+class MenuItemm extends StatelessWidget {
   String title;
   IconData icon;
-  MenuItem({Key? key, required this.icon, required this.title})
+  MenuItemm({Key? key, required this.icon, required this.title})
       : super(key: key);
 
   @override
